@@ -10,8 +10,8 @@ else
     || echo "WARNING: jemalloc not found at $JEMALLOC, skipping"
 fi
 
-# If running the rails server then create or migrate existing database
-if [ "${1}" == "./bin/rails" ] && [ "${2}" == "server" ]; then
+# If running the rails server (or start script) then create or migrate existing database
+if [ "${1}" == "./bin/rails" ] && [ "${2}" == "server" ] || [ "${1}" == "./bin/start" ]; then
   ./bin/rails db:prepare
 fi
 

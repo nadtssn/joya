@@ -58,6 +58,6 @@ COPY --chown=rails:rails --from=build /rails /rails
 # Entrypoint prepares the database.
 ENTRYPOINT ["/rails/bin/docker-entrypoint"]
 
-# Start the server by default, this can be overwritten at runtime
+# Start both web server and Sidekiq worker
 EXPOSE 3000
-CMD ["./bin/rails", "server"]
+CMD ["./bin/start"]

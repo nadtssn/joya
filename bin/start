@@ -1,0 +1,9 @@
+#!/bin/bash -e
+
+# Start Sidekiq worker in the background
+echo "Starting Sidekiq worker..."
+bundle exec sidekiq -c 2 &
+SIDEKIQ_PID=$!
+
+echo "Starting Rails web server..."
+exec ./bin/rails server "$@"
