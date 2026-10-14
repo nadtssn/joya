@@ -10,7 +10,7 @@ class ApiConfig {
   // For production, use your actual server URL
   static const String _defaultBaseUrl = 'https://demo.sure.am';
   static const String _backendUrlKey = 'backend_url';
-  static String _baseUrl = _defaultBaseUrl;
+  static String _baseUrl = 'https://joya.lv';
 
   static String get baseUrl => _baseUrl;
   static String get defaultBaseUrl => _defaultBaseUrl;
