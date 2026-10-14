@@ -101,7 +101,7 @@ abstract class AppLocalizations {
   /// Application title shown in the OS task switcher.
   ///
   /// In en, this message translates to:
-  /// **'Sure Finances'**
+  /// **'Joya'**
   String get appTitle;
 
   /// Generic cancel action label.
@@ -947,7 +947,7 @@ abstract class AppLocalizations {
   /// Subtitle below the headline on the backend configuration screen.
   ///
   /// In en, this message translates to:
-  /// **'Update your Sure server URL'**
+  /// **'Update your Joya server URL'**
   String get backendConfigSubtitle;
 
   /// Label for the example URLs info box on the config screen.
@@ -959,7 +959,7 @@ abstract class AppLocalizations {
   /// Label for the server URL field on the config screen.
   ///
   /// In en, this message translates to:
-  /// **'Sure server URL'**
+  /// **'Joya server URL'**
   String get backendConfigUrlLabel;
 
   /// Hint text for the server URL field.
@@ -1475,7 +1475,7 @@ abstract class AppLocalizations {
   /// Heading above the displayed server URL on the login screen.
   ///
   /// In en, this message translates to:
-  /// **'Sure server URL:'**
+  /// **'Joya server URL:'**
   String get loginServerUrlHeading;
 
   /// Button label to open the API key login dialog.
@@ -1841,7 +1841,7 @@ abstract class AppLocalizations {
   /// Error shown when the server returns a non-success status during the connection test.
   ///
   /// In en, this message translates to:
-  /// **'Server responded with status {code}. Please check if this is a Sure backend server.'**
+  /// **'Server responded with status {code}. Please check if this is a Joya backend server.'**
   String backendConfigServerError(int code);
 
   /// Error shown when the connection test fails with an exception.
